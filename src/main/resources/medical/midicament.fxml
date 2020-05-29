@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="89.0" prefWidth="652.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medical.MedicamentController">
+   <children>
+      <Label fx:id="l3" layoutX="451.0" prefHeight="46.0" prefWidth="201.0" text="Label3" textFill="#00a8ef">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="l1" prefHeight="46.0" prefWidth="447.0" text="Label1" textFill="#00a8ef">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutY="47.0" prefHeight="46.0" prefWidth="493.0" text="Label2" textFill="#00a8ef">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
